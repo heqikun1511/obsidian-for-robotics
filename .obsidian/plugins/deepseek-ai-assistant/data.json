@@ -1,0 +1,21 @@
+{
+  "models": [
+    {
+      "id": "default-deepseek-r1",
+      "name": "DeepSeek R1",
+      "modelId": "deepseek-reasoner",
+      "apiKey": "",
+      "apiUrl": "https://api.deepseek.com",
+      "providerUrl": "https://platform.deepseek.com/"
+    },
+    {
+      "id": "default-deepseek-v3",
+      "name": "DeepSeek V3",
+      "modelId": "deepseek-chat",
+      "apiKey": "",
+      "apiUrl": "https://api.deepseek.com",
+      "providerUrl": "https://platform.deepseek.com/"
+    }
+  ],
+  "promptStats": {}
+}

@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"755ce0d642ba98aa","x":-403,"y":-220,"width":603,"height":320,"type":"file","file":"Pasted image 20260926111434.png"},
+		{"id":"045d46af1368a37e","x":-268,"y":-307,"width":348,"height":87,"color":"1","type":"text","text":"sigmoid 把无限小的数字趋近0,无穷大 的数字趋近1 ，符合归一化 的要求"},
+		{"id":"df744db79bf92ecf","x":-539,"y":238,"width":699,"height":662,"type":"text","text":"![[Pasted image 20260926111845.png]]未命名未命名"},
+		{"id":"cfae32dbb445bc63","x":-480,"y":178,"width":250,"height":60,"color":"1","type":"text","text":"L2误差"}
+	],
+	"edges":[]
+}

@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"76ce3261ed58c395","x":-320,"y":-300,"width":237,"height":400,"type":"file","file":"Pasted image 20260922083446.png"},
+		{"id":"a9471fffbb38b26b","x":-570,"y":-80,"width":250,"height":60,"type":"text","text":"屏幕的官方原理图\n"}
+	],
+	"edges":[]
+}

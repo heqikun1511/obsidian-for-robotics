@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"f3d0b5bdd0f6ba8a","type":"text","text":"[[控制原理]]","x":-760,"y":-152,"width":250,"height":60},
+		{"id":"c548d52c7489ed71","x":-385,"y":274,"width":250,"height":60,"type":"text","text":""},
+		{"id":"b80f63e8c44f050b","x":-725,"y":865,"width":250,"height":60,"type":"text","text":""},
+		{"id":"81ac1d890c839fe7","type":"file","file":"蛇形机器人项目/Pasted image 20260911154450.png","x":-935,"y":1120,"width":1100,"height":440},
+		{"id":"b39899903264bc23","type":"text","text":"接口板设计：\n\n![[Pasted image 20260913102333.png]]\n","x":-955,"y":230,"width":1120,"height":530}
+	],
+	"edges":[]
+}
