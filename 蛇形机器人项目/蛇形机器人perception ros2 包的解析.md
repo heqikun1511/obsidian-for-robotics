@@ -1,4 +1,4 @@
-
+[[蛇形机器人]]
 ## 话题名参数（Topic Names）
 
 | 参数名                       | 默认值                                 | 含义                         |
@@ -10,9 +10,9 @@
 | `state_topic`             | `/perception/safety_state`          | 发布**安全状态**（枚举/整数）的话题       |
 
 
-|   |
-|---|
-|发布**安全状态**（枚举/整数）的话题|
+|                      |
+| -------------------- |
+| 发布**安全状态**（枚举/整数）的话题 |
 
 > 这些都声明为 `std::string`，默认带 `/perception/` 前缀，说明属于感知层输出，供规划/控制层订阅。
 
@@ -153,16 +153,16 @@ if (watchdog_rate_hz_ <= 0.0 || voxel_leaf_size_m_ <= 0.0 ||
 
 ### 发布者（都用 `reliable` QoS）
 
-|发布者|类型|话题|
-|---|---|---|
-|`obstacle_pub_`|`PointCloud2`|障碍物点云|
-|`ground_pub_`|`PointCloud2`|地面点云|
-|`costmap_pub_`|`OccupancyGrid`|局部代价地图|
-|`emergency_stop_pub_`|`Bool`|紧急停车信号|
-|`clearance_pub_`|`Float32`|前方可通行距离|
-|`speed_scale_pub_`|`Float32`|速度缩放|
-|`turn_bias_pub_`|`Float32`|转向偏置|
-|`state_pub_`|`UInt8`|安全状态|
+| 发布者                   | 类型              | 话题      |
+| --------------------- | --------------- | ------- |
+| `obstacle_pub_`       | `PointCloud2`   | 障碍物点云   |
+| `ground_pub_`         | `PointCloud2`   | 地面点云    |
+| `costmap_pub_`        | `OccupancyGrid` | 局部代价地图  |
+| `emergency_stop_pub_` | `Bool`          | 紧急停车信号  |
+| `clearance_pub_`      | `Float32`       | 前方可通行距离 |
+| `speed_scale_pub_`    | `Float32`       | 速度缩放    |
+| `turn_bias_pub_`      | `Float32`       | 转向偏置    |
+| `state_pub_`          | `UInt8`         | 安全状态    |
 
 ### 订阅者（用 `SensorDataQoS`）
 

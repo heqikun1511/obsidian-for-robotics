@@ -98,7 +98,7 @@ $\[ d_i=\frac{|ax_i+by_i+cz_i+d|}{\sqrt{a^2+b^2+c^2}} \]$
 
 对于平面场景或纯旋转相机，匹配点满足：
 
-\[ \mathbf{x}' \sim \mathbf{H}\mathbf{x} \]
+$\[ \mathbf{x}' \sim \mathbf{H}\mathbf{x} \]$
 
 其中 $\mathbf{H}$ 是 $3\times3$ 单应矩阵，$\sim$ 表示齐次坐标下相差非零尺度。RANSAC 用重投影误差判断内点：
 

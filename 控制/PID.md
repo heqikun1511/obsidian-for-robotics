@@ -133,13 +133,13 @@ setpoint:  0 ──────┐
 
 **把微分项改成只对 measurement 求导**，忽略 setpoint 的变化：
 
-微分项=−Kdd(measurement)dt微分项=−Kd​dtd(measurement)​
+$微分项=−Kdd(measurement)dt微分项=−Kd​dtd(measurement)​$
 
 **为什么可以这样**：
 
 - 当**系统稳定、setpoint 不变**时，$d(setpoint)dt=0dtd(setpoint)​=0$
     
-- 此时 dedt=−d(measurement)dtdtde​=−dtd(measurement)​
+- 此时 $dedt=−d(measurement)dtdtde​=−dtd(measurement)​$
     
 - **只对 measurement 求导 = 标准微分项**（在 setpoint 不变时等价）
     

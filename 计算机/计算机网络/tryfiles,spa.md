@@ -80,11 +80,11 @@ location / {
 
 逐个解释这三个参数：
 
-|参数|含义|举例（请求 `/oauth/callback`）|
-|---|---|---|
-|`$uri`|尝试请求的路径本身作为文件|找 `/var/www/oauth/callback` → 不存在|
-|`$uri/`|尝试作为目录，找目录下的 index|找 `/var/www/oauth/callback/` → 不存在|
-|`/index.html`|前面都失败，回退到这个文件|返回 `/var/www/index.html`|
+| 参数            | 含义                 | 举例（请求 `/oauth/callback`）           |
+| ------------- | ------------------ | ---------------------------------- |
+| `$uri`        | 尝试请求的路径本身作为文件      | 找 `/var/www/oauth/callback` → 不存在  |
+| `$uri/`       | 尝试作为目录，找目录下的 index | 找 `/var/www/oauth/callback/` → 不存在 |
+| `/index.html` | 前面都失败，回退到这个文件      | 返回 `/var/www/index.html`           |
 
 所以请求 `/oauth/callback` 时：
 
