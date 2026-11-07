@@ -63,7 +63,7 @@ $K_p$ 是比例系数，$K_i$ 是积分系数，$K_d$ 是微分系数。三个�
 
 差分会放大编码器量化噪声。对测量值求导后可用一阶滤波：
 
-\[ v_k=\frac{y_k-y_{k-1}}{\Delta t},\qquad \hat v_k=\alpha\hat v_{k-1}+(1-\alpha)v_k,\quad 0\le\alpha<1, \]\[ u_{D,k}=-K_d\hat v_k. \]
+$\[ v_k=\frac{y_k-y_{k-1}}{\Delta t},\qquad \hat v_k=\alpha\hat v_{k-1}+(1-\alpha)v_k,\quad 0\le\alpha<1, \]\[ u_{D,k}=-K_d\hat v_k. \]$
 
 $\alpha$ 越大，输出越平滑，但延迟也越大。若以时间常数 $\tau_f$ 设定滤波，可取 $\alpha=\tau_f/(\tau_f+\Delta t)$。传感器异常值和旧时间戳也要单独处理，不能只靠滤波掩盖。
 
